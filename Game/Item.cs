@@ -1,8 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CastleGrimtol.Game
 {
@@ -10,6 +6,12 @@ namespace CastleGrimtol.Game
   {
     public string Name { get; set; }
     public string Description { get; set; }
+
+    public Item (string name, string description)
+    {
+        name = Name;
+        description = Description;
+    }
   }
 }
 
